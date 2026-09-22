@@ -1,0 +1,9 @@
+IBM Plex Sans
+Copyright © 2017 IBM Corp. com Reserved Font Name "Plex".
+
+Esta fonte é distribuída sob a SIL Open Font License, versão 1.1.
+Texto integral da licença: https://openfontlicense.org/open-font-license-official-text/
+Projeto original: https://github.com/IBM/plex
+
+Arquivo: ibm-plex-sans-latin-var.woff2 — fonte variável (pesos 100–700), subconjunto latino,
+obtida de fonts.gstatic.com (Google Fonts) em 22/09/2026 e hospedada junto ao site.
