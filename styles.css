@@ -513,8 +513,6 @@ a { color: inherit; }
 @media (min-width: 600px) and (max-width: 900px) {
   .fronts-media { aspect-ratio: 16 / 10; max-height: none; }
   .fronts-media img { object-position: 80% 22%; }
-  .service-media img { aspect-ratio: 16 / 11; }
-  .comodato-media img, .comodato-media.service-media img { aspect-ratio: 16 / 11; }
 }
 @media (max-width: 480px) {
   .front-list a { grid-template-columns: 2.4rem minmax(0, 1fr) auto; gap: 4px 10px; padding: 22px 0; }
@@ -699,6 +697,11 @@ a { color: inherit; }
   .service-grid--flip .service-media { order: 0; }
   .service-media img { max-height: 560px; }
   .tech-groups { grid-template-columns: minmax(0, 1fr); }
+}
+/* Recortes de tablet após as regras-base, para preservar a proporção prevista. */
+@media (min-width: 600px) and (max-width: 900px) {
+  .service-media img { aspect-ratio: 16 / 11; }
+  .comodato-media img, .comodato-media.service-media img { aspect-ratio: 16 / 11; }
 }
 @media (max-width: 560px) { .feature-list { columns: 1; } .feature-list--compact { columns: 2; column-gap: 20px; } }
 
